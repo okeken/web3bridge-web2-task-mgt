@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Task Management</title>
+</head>
+<body>
+
+
+    <div>
+        <h1 class="text-4xl text-center text-blue-600 my-10">Task Management</h1>
+       
+        <form  class=" text-center" id="addTask" >
+            <input id="newTask" class="border  p-2" type="text" name="task" placeholder="Enter task">
+            <button id="submitBtn" class="p-2 bg-blue-200 text-blue-600 "  type="submit">Add Task</button>
+        </form>
+    </div>
+
+    <div class="max-w-xs  m-auto mt-8">
+
+        <ul class="" id="list-container">
+           <li id="list"></li>
+        </ul>
+       
+    </div>
+    
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
